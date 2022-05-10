@@ -7,8 +7,10 @@
 ## Analysis and Challenges
 
 ### First, we looked at trends based on launch date. We found that most successful theater fundraisers began between the months of April and August, with the optimal month being May. Interestingly, the most failed theater campaigns also began in May. That could be because a greater number of total campaigns launched during that month, so it drives both outcomes up, although the successful campaigns greatly outweigh the failed.
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/104405357/167741654-9b6f6572-b4cb-4556-9b11-219f965bf0cc.png)
 
 ### Next, we looked at trends based on goals. We looked at percentages of successful vs failed campaigns on a range of dollar amounts. We found that projects with a goal of less than $5000 were most likely to succeed. Projects with a goal of $35000-$44999 also performed well but have slightly less probability of success, possibly due to the goal being such a high dollar amount.
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/104405357/167741690-a364361f-3dc4-4cf6-94d2-2979aabc8de5.png)
 
 ### A challenge I encountered during this analysis was getting my =COUNTIFS function to work properly when pulling the data for Outcomes Based on Goals. It took a little bit of trial and error to narrow down where my discrepancy was coming from. Longer formulas and functions can be harder to write because there is much more room for error.
 
